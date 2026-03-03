@@ -1,0 +1,10 @@
+streamlit
+pinecone
+google-generativeai
+sentence-transformers
+transformers
+torch
+pillow
+pytesseract
+python-dotenv
+pymupdf
