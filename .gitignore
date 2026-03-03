@@ -1,0 +1,7 @@
+__pycache__/
+venv/
+.env
+file_state.json
+data/
+.streamlit/
+*.pyc
