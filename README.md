@@ -76,7 +76,6 @@ Tasks performed:
 | **Pytesseract** | Extracts text embedded inside images |
 | **Pillow** | Image preprocessing for captioning and LLM input |
 | **Google Gemini** | Multimodal reasoning and response generation |
-| **Python-dotenv** | Environment variable management |
 
 ---
 
@@ -109,8 +108,12 @@ Only retrieved document context is sent to Gemini to prevent hallucination.
 
 # Installation
 
-Clone the repository
+1. Clone the repository
+2. Install dependencies
+3. Create a .env file in the root directory.
+   ```bash
+   PINECONE_API_KEY=your_pinecone_key
+   GEMINI_API_KEY=your_gemini_key
+5. Create your own Pinecone index (first time only)
+6. Run the Streamlit interface
 
-```bash
-git clone https://github.com/udayg7771/MultiModal-RAG-Architecture.git
-cd MultiModal-RAG-Architecture
